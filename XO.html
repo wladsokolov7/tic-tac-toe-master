@@ -1,0 +1,26 @@
+<html>
+	<meta charset="utf-8">	
+	<head>
+		<title>XO</title>
+		<script src='XO.js'> </script>
+	</head>
+
+	<body> 
+		<h1 align="center"><b class="game"> Выберите режим </b> <br> <input type="button" value=" Поменяться местами " onclick="swap()"> 
+																		 <input type="button" value=" 3x3 " onclick="base3()">
+																		 <input type="button" value=" 5x5 " onclick="base5()"> </h1> 																		 
+	<table align="center"> 
+	<tr> <td> 
+		<table class = "baseTable" border="1" cellspacing="0" style="width:600; height:600" align="center"> 
+			<tr >
+			</tr>
+		</table>  
+	</td> <td> 
+		<table border="1" cellspacing="0" style="width:200; height:600" align="center"> <tr> 
+			<td align="center"> Победил первый игрок : <br> <b class="game1" > 0 </b> <br> Победил второй игрок : <br> <b class="game2" > 0 </b>  <br> <input type="button" value=" Обнулить счёт " onclick="restart()"> </td> 
+		</tr> </table>  
+	</td> </tr> 
+	</table>
+	
+	</body>
+</html>
